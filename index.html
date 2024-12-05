@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarPlay </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg fixed-top">
+    <a class="navbar-brand" href="#">SolarPlay </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Головна</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Про нас</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Контакти</a></li>
+        </ul>
+    </div>
+</nav>
+   <div class="main-section">
+    <div class="text-center">
+        <h1>Ласкаво просимо до SolarPlay</h1>
+        <p>Зануртеся у нескінченний всесвіт розваг!</p>
+        <a href="#games" class="btn">Розпочати подорож</a>
+    </div>
+</div>
+   <div id="games" class="container">
+    <h2>Наші ігри</h2>
+    <div class="row">
+        <div class="col">
+            <a href="https://annet21.github.io/magic_ball/">
+                <img src="boll.jpg" alt="Magic ball" class="game-img">
+                <p>Гра «Magic ball»</p>
+            </a>
+        </div>
+        <div class="col">
+            <a href="https://annet21.github.io/card11.github.io/">
+                <img src="card.jpg" alt="21" class="game-img">
+                <p>Гра «21»</p>
+            </a>
+        </div>
+        <div class="col">
+            <a href="https://annet21.github.io/slot1/">
+                <img src="slot.jpg" alt="Однорукий бандит" class="game-img">
+                <p>Гра «Однорукий бандит»</p>
+            </a>
+        </div>
+    </div>
+</div>
+    <div class="container">
+    <h2>Залиште відгук</h2>
+    <form id="feedback">
+        <div class="form-group">
+            <label for="message">Ваш відгук</label>
+            <textarea id="message" rows="5" placeholder="Введіть ваш відгук" required></textarea>
+        </div>
+        <button type="submit" class="btn1">Надіслати</button>
+    </form>
+</div>
+    <footer class="bg-dark text-center text-light py-3">
+        © 2024 SolarPlay. Всі права захищено.
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

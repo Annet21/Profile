@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(to bottom, #000428, #004e92) fixed;
+    background-size: cover;
+}
+
+.navbar {
+    background: transparent;
+}
+.navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.main-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), 
+                url('fon1.jpg') center center / cover no-repeat;
+}
+
+.main-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.main-section p {
+    font-size: 1.25rem;
+    color: white;
+    margin: 20px 0;
+}
+
+.main-section .btn {
+    font-size: 1.25rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-section .btn:hover {
+    background-color: #0056b3;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#games {
+    padding: 50px 0;
+}
+
+#games h2 {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.col {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.game-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid white;
+    transition: transform 0.3s ease;
+}
+
+.game-img:hover {
+    transform: scale(1.1);
+}
+
+.col p {
+    margin-top: 10px;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.container {
+    padding: 50px 0;
+}
+
+#feedback h2 {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#feedback {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#feedback .form-group {
+    margin-bottom: 20px;
+}
+
+#feedback label {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#feedback textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn1 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn1:hover {
+    background-color: #0056b3;
+}
+footer {
+    background-color: #343a40; 
+    color: white; 
+    text-align: center; 
+    padding: 15px 0; 
+}
